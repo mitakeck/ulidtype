@@ -8,6 +8,16 @@
 $ composer require mitakeck/ulidtypes
 ```
 
+### Bootstrap
+
+- add plugin load command in `config/bootstrap.php`
+
+```php
+...
+Plugin::load('mitakeck/UlidTypes', ['bootstrap' => true]);
+...
+```
+
 ### Model
 
 - add `_initializeSchema()` method to `Model\Table` class to make id `ulid` type
