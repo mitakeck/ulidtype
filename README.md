@@ -1,0 +1,1 @@
+# UlidType plugin for CakePHP
